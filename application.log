@@ -1,0 +1,49 @@
+٢٠٢١-٠٣-٠١ ١٥:١٢:٤١.١٠٨  INFO 5964 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢١-٠٣-٠١ ١٥:١٣:٠٢.٤٨٥  INFO 5964 --- [http-nio-9090-exec-5] com.quiz.quiz.service.SaleService        : edit Item:4 the count is updated from:2 to:3
+٢٠٢١-٠٣-٠١ ١٥:١٣:٠٢.٤٨٦  INFO 5964 --- [http-nio-9090-exec-5] com.quiz.quiz.service.SaleService        : new Item:Transaction{id=0, count=2, product=Product{id=2, name='product', category='category 1'}}
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٤.٤٦٤  INFO 13428 --- [main] com.quiz.quiz.SpringBootQuizApplication  : Starting SpringBootQuizApplication using Java 10.0.2 on DESKTOP-83K7M1K with PID 13428 (C:\Users\lenovo\IdeaProjects\management\target\classes started by lenovo in C:\Users\lenovo\IdeaProjects\management)
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٤.٥٠٦  INFO 13428 --- [main] com.quiz.quiz.SpringBootQuizApplication  : No active profile set, falling back to default profiles: default
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٥.٨٨٣  INFO 13428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٥.٨٨٣  INFO 13428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٥.٩٧٧  INFO 13428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.٠١٤  INFO 13428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.١٢٨  INFO 13428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.٢٥٤  INFO 13428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.٢٨٦  INFO 13428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.٣٧١  INFO 13428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.٤٤٩  INFO 13428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٦.٩٥٦  INFO 13428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٤٧.٦٥٢  INFO 13428 --- [main] com.quiz.quiz.SpringBootQuizApplication  : Started SpringBootQuizApplication in 3.825 seconds (JVM running for 5.038)
+٢٠٢١-٠٣-٠١ ١٧:٣٠:٥٦.١٨٤  INFO 13428 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٢.٢٤٠  INFO 6708 --- [main] com.quiz.quiz.SpringBootQuizApplication  : Starting SpringBootQuizApplication using Java 10.0.2 on DESKTOP-83K7M1K with PID 6708 (C:\Users\lenovo\IdeaProjects\management\target\classes started by lenovo in C:\Users\lenovo\IdeaProjects\management)
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٢.٢٥٩  INFO 6708 --- [main] com.quiz.quiz.SpringBootQuizApplication  : No active profile set, falling back to default profiles: default
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٣.٧٨١  INFO 6708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٣.٧٨٢  INFO 6708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٣.٨٧٨  INFO 6708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٣.٩١٧  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٤.٠٢٢  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٤.١٥٦  INFO 6708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٤.١٨٨  INFO 6708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٤.٢٧٢  INFO 6708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٤.٣٤٧  INFO 6708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٤.٨٥٣  INFO 6708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٥.٥٢٥  INFO 6708 --- [main] com.quiz.quiz.SpringBootQuizApplication  : Started SpringBootQuizApplication in 3.968 seconds (JVM running for 5.217)
+٢٠٢١-٠٣-٠١ ١٨:٠٥:٣٨.٢٠٣  INFO 6708 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢١-٠٣-٠١ ١٨:٠٦:٤٥.٢٢٩  INFO 6708 --- [http-nio-9090-exec-9] com.quiz.quiz.service.SaleService        : new Item:Transaction{id=4, count=3, product=Product{id=2, name='product', category='category 1'}}
+٢٠٢١-٠٣-٠١ ١٨:٠٦:٤٥.٢٢٩  INFO 6708 --- [http-nio-9090-exec-9] com.quiz.quiz.service.SaleService        : new Item:Transaction{id=0, count=2, product=Product{id=2, name='product', category='category 1'}}
+٢٠٢١-٠٣-٠١ ١٨:٠٧:٠١.٥٨٥  INFO 6708 --- [http-nio-9090-exec-2] com.quiz.quiz.service.SaleService        : some str
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٦.٣٠٢  INFO 13028 --- [main] com.quiz.quiz.SpringBootQuizApplication  : Starting SpringBootQuizApplication using Java 10.0.2 on DESKTOP-83K7M1K with PID 13028 (C:\Users\lenovo\IdeaProjects\management\target\classes started by lenovo in C:\Users\lenovo\IdeaProjects\management)
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٦.٣٠٦  INFO 13028 --- [main] com.quiz.quiz.SpringBootQuizApplication  : No active profile set, falling back to default profiles: default
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٧.٨٢٥  INFO 13028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٧.٨٢٦  INFO 13028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٧.٩٤١  INFO 13028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٧.٩٨٥  INFO 13028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٨.١٠٤  INFO 13028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٨.٢٤٣  INFO 13028 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٨.٢٧٧  INFO 13028 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٨.٣٧٧  INFO 13028 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٨.٤٥٩  INFO 13028 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٨.٩٨٥  INFO 13028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢١-٠٣-٠١ ١٨:٠٩:٥٩.٧١٥  INFO 13028 --- [main] com.quiz.quiz.SpringBootQuizApplication  : Started SpringBootQuizApplication in 4.043 seconds (JVM running for 5.323)
+٢٠٢١-٠٣-٠١ ١٨:١٠:٠٥.٤٦٧  INFO 13028 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢١-٠٣-٠١ ١٨:١٠:٣١.٠٦٣  INFO 13028 --- [http-nio-9090-exec-7] com.quiz.quiz.service.SaleService        : some str

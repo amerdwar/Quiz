@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="972.7827147525682" y="90.0">com.quiz.quiz.entity.Product</node>
+    <node x="1178.8709115312797" y="260.0">com.quiz.quiz.repository.ClientRepository</node>
+    <node x="781.0441176470589" y="180.0">com.quiz.quiz.dto.TransActionResponseDto</node>
+    <node x="345.9591853408035" y="90.0">com.quiz.quiz.entity.Sale</node>
+    <node x="1511.2637686741368" y="520.0">com.quiz.quiz.controller.ClientController</node>
+    <node x="1260.7302696078436" y="440.0">com.quiz.quiz.service.ProductService</node>
+    <node x="1174.8709115312797" y="520.0">com.quiz.quiz.controller.ProductController</node>
+    <node x="28.0" y="260.0">com.quiz.quiz.dto.SaleRequestDto</node>
+    <node x="1384.8233566760043" y="180.0">com.quiz.quiz.utils.ResponeStatus</node>
+    <node x="1480.5137686741368" y="440.0">com.quiz.quiz.service.ClientService</node>
+    <node x="266.6029411764706" y="180.0">com.quiz.quiz.repository.SaleRepository</node>
+    <node x="445.6029411764706" y="260.0">com.quiz.quiz.repository.TransactionRepository</node>
+    <node x="690.4297350606914" y="260.0">com.quiz.quiz.dto.SaleResponseDto</node>
+    <node x="0.0" y="180.0">com.quiz.quiz.dto.TransActionRequestDto</node>
+    <node x="664.9297350606914" y="440.0">com.quiz.quiz.service.SaleService</node>
+    <node x="1401.1923401027084" y="260.0">com.quiz.quiz.dto.ListResponse</node>
+    <node x="718.1503618113918" y="0.0">com.quiz.quiz.entity.Client</node>
+    <node x="410.48855859010325" y="520.0">com.quiz.quiz.controller.SaleController</node>
+    <node x="563.2369596171811" y="180.0">com.quiz.quiz.entity.Transaction</node>
+    <node x="0.0" y="595.0">com.quiz.quiz.SpringBootQuizApplication</node>
+    <node x="961.9852941176471" y="260.0">com.quiz.quiz.repository.ProductRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.quiz.quiz.entity.Transaction" target="com.quiz.quiz.entity.Product">
+      <point x="33.5" y="-15.0" />
+      <point x="663.7369596171811" y="150.0" />
+      <point x="982.9827147525682" y="150.0" />
+      <point x="-40.799999999999955" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ClientService" target="com.quiz.quiz.repository.ClientRepository">
+      <point x="-60.0" y="-15.0" />
+      <point x="1495.5137686741368" y="320.0" />
+      <point x="1309.3709115312797" y="320.0" />
+      <point x="43.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.repository.TransactionRepository" target="com.quiz.quiz.entity.Transaction">
+      <point x="0.0" y="-15.0" />
+      <point x="552.6029411764706" y="240.0" />
+      <point x="585.5702929505146" y="240.0" />
+      <point x="-44.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.entity.Transaction">
+      <point x="-7.882352941176464" y="-15.0" />
+      <point x="724.0473821195151" y="350.0" />
+      <point x="677.9852941176471" y="350.0" />
+      <point x="677.9852941176471" y="230.0" />
+      <point x="674.9036262838479" y="230.0" />
+      <point x="44.66666666666674" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ClientService" target="com.quiz.quiz.utils.ResponeStatus">
+      <point x="30.0" y="-15.0" />
+      <point x="1585.5137686741368" y="420.0" />
+      <point x="1591.235294117647" y="420.0" />
+      <point x="1591.235294117647" y="240.0" />
+      <point x="1519.8233566760043" y="240.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.dto.TransActionResponseDto" target="com.quiz.quiz.entity.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="892.0441176470589" y="160.0" />
+      <point x="1003.3827147525683" y="160.0" />
+      <point x="-20.399999999999977" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.ClientController" target="com.quiz.quiz.entity.Client">
+      <point x="43.5" y="-15.0" />
+      <point x="1641.2162138188614" y="50.0" />
+      <point x="805.436076097106" y="50.0" />
+      <point x="40.28571428571422" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.dto.SaleResponseDto" target="com.quiz.quiz.entity.Client">
+      <point x="0.0" y="-15.0" />
+      <point x="773.4297350606914" y="240.0" />
+      <point x="770.5441176470589" y="240.0" />
+      <point x="770.5441176470589" y="70.0" />
+      <point x="765.1503618113918" y="70.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.entity.Sale" target="com.quiz.quiz.entity.Client">
+      <point x="0.0" y="-15.0" />
+      <point x="384.9591853408035" y="60.0" />
+      <point x="738.2932189542489" y="60.0" />
+      <point x="-26.85714285714289" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.entity.Sale">
+      <point x="-31.529411764705856" y="-15.0" />
+      <point x="700.4003232959856" y="380.0" />
+      <point x="435.1029411764706" y="380.0" />
+      <point x="435.1029411764706" y="160.0" />
+      <point x="391.4591853408035" y="160.0" />
+      <point x="6.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.ProductController" target="com.quiz.quiz.service.ProductService">
+      <point x="45.5" y="-15.0" />
+      <point x="1311.3709115312797" y="490.0" />
+      <point x="1339.7302696078436" y="490.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.dto.SaleResponseDto" target="com.quiz.quiz.dto.TransActionResponseDto">
+      <point x="33.200000000000045" y="-15.0" />
+      <point x="806.6297350606915" y="240.0" />
+      <point x="808.7941176470589" y="240.0" />
+      <point x="-83.25" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ProductService" target="com.quiz.quiz.repository.ProductRepository">
+      <point x="-63.19999999999999" y="-15.0" />
+      <point x="1276.5302696078436" y="340.0" />
+      <point x="1098.485294117647" y="340.0" />
+      <point x="45.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.SaleController" target="com.quiz.quiz.entity.Sale">
+      <point x="-19.75" y="-15.0" />
+      <point x="469.73855859010325" y="490.0" />
+      <point x="235.5" y="490.0" />
+      <point x="235.5" y="140.0" />
+      <point x="352.4591853408035" y="140.0" />
+      <point x="-32.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.dto.SaleRequestDto">
+      <point x="-63.05882352941171" y="-15.0" />
+      <point x="668.8709115312797" y="420.0" />
+      <point x="146.5" y="420.0" />
+      <point x="39.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.ClientController" target="com.quiz.quiz.service.ClientService">
+      <point x="-43.5" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.repository.ProductRepository">
+      <point x="31.529411764705856" y="-15.0" />
+      <point x="763.4591468253973" y="340.0" />
+      <point x="1007.4852941176471" y="340.0" />
+      <point x="-45.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.repository.SaleRepository" target="com.quiz.quiz.entity.Sale">
+      <point x="0.0" y="-15.0" />
+      <point x="345.6029411764706" y="160.0" />
+      <point x="378.4591853408035" y="160.0" />
+      <point x="-6.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ClientService" target="com.quiz.quiz.dto.ListResponse">
+      <point x="-30.0" y="-15.0" />
+      <point x="1525.5137686741368" y="420.0" />
+      <point x="1512.7637686741368" y="420.0" />
+      <point x="40.57142857142861" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.SaleController" target="com.quiz.quiz.dto.SaleRequestDto">
+      <point x="-59.25" y="-15.0" />
+      <point x="430.23855859010325" y="500.0" />
+      <point x="67.5" y="500.0" />
+      <point x="-39.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.SaleController" target="com.quiz.quiz.service.SaleService">
+      <point x="19.75" y="-15.0" />
+      <point x="509.23855859010325" y="490.0" />
+      <point x="731.9297350606914" y="490.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ProductService" target="com.quiz.quiz.entity.Product">
+      <point x="-31.599999999999966" y="-15.0" />
+      <point x="1308.1302696078435" y="330.0" />
+      <point x="1168.3709115312797" y="330.0" />
+      <point x="1168.3709115312797" y="140.0" />
+      <point x="1064.582714752568" y="140.0" />
+      <point x="40.799999999999955" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.repository.SaleRepository">
+      <point x="-39.41176470588232" y="-15.0" />
+      <point x="692.5179703548092" y="390.0" />
+      <point x="345.6029411764706" y="390.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.dto.SaleResponseDto">
+      <point x="0.0" y="-15.0" />
+      <point x="-41.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.repository.TransactionRepository">
+      <point x="-23.64705882352939" y="-15.0" />
+      <point x="708.2826762371621" y="370.0" />
+      <point x="552.6029411764706" y="370.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.utils.ResponeStatus">
+      <point x="47.29411764705878" y="-15.0" />
+      <point x="779.2238527077502" y="360.0" />
+      <point x="1363.3709115312797" y="360.0" />
+      <point x="1363.3709115312797" y="230.0" />
+      <point x="1399.8233566760043" y="230.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.dto.SaleRequestDto" target="com.quiz.quiz.dto.TransActionRequestDto">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.entity.Client">
+      <point x="-55.17647058823525" y="-15.0" />
+      <point x="676.7532644724563" y="410.0" />
+      <point x="224.5" y="410.0" />
+      <point x="224.5" y="50.0" />
+      <point x="724.8646475256774" y="50.0" />
+      <point x="-40.285714285714334" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.dto.ListResponse">
+      <point x="55.17647058823525" y="-15.0" />
+      <point x="787.1062056489268" y="380.0" />
+      <point x="1411.3351972455653" y="380.0" />
+      <point x="-60.85714285714286" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ProductService" target="com.quiz.quiz.utils.ResponeStatus">
+      <point x="0.0" y="-15.0" />
+      <point x="1339.7302696078436" y="370.0" />
+      <point x="1374.3709115312797" y="370.0" />
+      <point x="1374.3709115312797" y="240.0" />
+      <point x="1429.8233566760043" y="240.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.dto.SaleResponseDto" target="com.quiz.quiz.entity.Sale">
+      <point x="-66.39999999999998" y="-15.0" />
+      <point x="707.0297350606916" y="240.0" />
+      <point x="711.0718919234366" y="240.0" />
+      <point x="711.0718919234366" y="140.0" />
+      <point x="417.4591853408035" y="140.0" />
+      <point x="32.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.repository.ProductRepository" target="com.quiz.quiz.entity.Product">
+      <point x="0.0" y="-15.0" />
+      <point x="1052.985294117647" y="160.0" />
+      <point x="1023.7827147525682" y="160.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.ProductController" target="com.quiz.quiz.entity.Product">
+      <point x="-45.5" y="-15.0" />
+      <point x="1220.3709115312797" y="490.0" />
+      <point x="1154.485294117647" y="490.0" />
+      <point x="1154.485294117647" y="150.0" />
+      <point x="1044.1827147525682" y="150.0" />
+      <point x="20.399999999999977" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.dto.ListResponse" target="com.quiz.quiz.utils.ResponeStatus">
+      <point x="-35.5" y="-15.0" />
+      <point x="1436.6923401027084" y="240.0" />
+      <point x="1459.8233566760043" y="240.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.repository.ClientRepository">
+      <point x="39.41176470588232" y="-15.0" />
+      <point x="771.3414997665739" y="350.0" />
+      <point x="1222.3709115312797" y="350.0" />
+      <point x="-43.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.SaleService" target="com.quiz.quiz.dto.TransActionResponseDto">
+      <point x="23.64705882352939" y="-15.0" />
+      <point x="755.5767938842209" y="330.0" />
+      <point x="951.4852941176471" y="330.0" />
+      <point x="951.4852941176471" y="240.0" />
+      <point x="975.2941176470589" y="240.0" />
+      <point x="83.25" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.entity.Transaction" target="com.quiz.quiz.entity.Sale">
+      <point x="-33.5" y="-15.0" />
+      <point x="596.7369596171811" y="150.0" />
+      <point x="404.4591853408035" y="150.0" />
+      <point x="19.5" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.repository.ClientRepository" target="com.quiz.quiz.entity.Client">
+      <point x="0.0" y="-15.0" />
+      <point x="1265.8709115312797" y="70.0" />
+      <point x="778.5789332399631" y="70.0" />
+      <point x="13.428571428571445" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.controller.SaleController" target="com.quiz.quiz.dto.ListResponse">
+      <point x="59.25" y="-15.0" />
+      <point x="548.7385585901033" y="500.0" />
+      <point x="1429.2302696078436" y="500.0" />
+      <point x="1429.2302696078436" y="420.0" />
+      <point x="1492.4780543884226" y="420.0" />
+      <point x="20.285714285714334" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ClientService" target="com.quiz.quiz.entity.Client">
+      <point x="60.0" y="-15.0" />
+      <point x="1615.5137686741368" y="420.0" />
+      <point x="1609.485294117647" y="420.0" />
+      <point x="1609.485294117647" y="60.0" />
+      <point x="792.0075046685345" y="60.0" />
+      <point x="26.857142857142776" y="15.0" />
+    </edge>
+    <edge source="com.quiz.quiz.service.ProductService" target="com.quiz.quiz.dto.ListResponse">
+      <point x="31.600000000000023" y="-15.0" />
+      <point x="1371.3302696078435" y="400.0" />
+      <point x="1451.906625816994" y="400.0" />
+      <point x="-20.285714285714278" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="960.9999999999998" y="425.85714285714425" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
